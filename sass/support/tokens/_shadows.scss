@@ -1,0 +1,18 @@
+////
+/// @group Config
+////
+
+/// Default map settings for $shadows.
+/// Retrieve via function.
+$shadows: () !default;
+$shadows: map-merge(
+  (
+    xl: $shadow-xl,
+    lg: $shadow-lg,
+    md: $shadow-md,
+    sm: $shadow-sm,
+    xs: $shadow-xs,
+    none: $shadow-none
+  ),
+  $shadows
+);

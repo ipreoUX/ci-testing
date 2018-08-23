@@ -1,0 +1,85 @@
+$enable-reset: true !default;
+$enable-shadows: true !default;
+$enable-colors: true !default;
+$enable-spacers: true !default;
+
+$shadow-xl: 0 12px 24px 0 rgba(0, 0, 0, .1) !default;
+$shadow-lg: 0 8px 16px 0 rgba(0, 0, 0, .1) !default;
+$shadow-md: 0 6px 12px 0 rgba(0, 0, 0, .1) !default;
+$shadow-sm: 0 4px 8px 0 rgba(0, 0, 0, 0.1) !default;
+$shadow-xs: 0 1px 2px 0 rgba(0, 0, 0, .1) !default;
+$shadow-none: 0 0 0 0 transparent !default;
+
+
+$duration-unit: 100ms;
+$duration-fast: $duration-unit !default;
+$duration-base: $duration-unit * 2 !default;
+$duration-slow: $duration-unit * 3 !default;
+$duration-slower: $duration-unit * 4 !default;
+$duration-slowest: $duration-unit * 5 !default;
+
+$easing-base      : cubic-bezier(0.64, 0, 0.35, 1) !default;
+$easing-in        : cubic-bezier(0.36, 0, 1, 1) !default;
+$easing-out       : cubic-bezier(0, 0, 0.42, 1) !default;
+$easing-excite    : cubic-bezier(0.18, 0.67, 0.6, 1.22) !default;
+$easing-overshoot : cubic-bezier(0.07, 0.28, 0.32, 1.22) !default;
+$easing-anticipate: cubic-bezier(0.38, -0.4, 0.88, 0.65) !default;
+
+
+// **SPACING**
+// Point-Grid System
+// Use multiples of this value to define dimensions, padding, and margin of both block and inline elements.
+$theme-base-point-grid: .5rem !default;
+
+$space-none: 0 !default;
+$space-xxs: $theme-base-point-grid / 4 !default; // .125rem, 2px
+$space-xs : $theme-base-point-grid / 2 !default; // .25rem, 4px
+$space-sm : $theme-base-point-grid !default;     //;.5rem, 8px
+$space-md : $theme-base-point-grid * 2 !default; // 1rem, 16px
+$space-lg : $theme-base-point-grid * 3 !default; // 1.5rem, 24px
+$space-xl : $theme-base-point-grid * 4 !default; // 2rem, 32px
+$space-xxl: $theme-base-point-grid * 6 !default;// 3rem, 48px
+
+$theme-base-border-radius: 3px !default;
+$theme-font-family:  -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto !default;
+$theme-base-font-size: 16px !default;
+
+
+$font-size-H1         : $theme-base-font-size * 6 !default;
+$font-size-H2         : $theme-base-font-size * 3.75 !default;
+$font-size-H3         : $theme-base-font-size * 3 !default;
+$font-size-H4         : $theme-base-font-size  * 2.125 !default;
+$font-size-H5         : $theme-base-font-size * 1.5 !default;
+$font-size-H6         : $theme-base-font-size * 1.25 !default;
+$font-size-subtitle2  : $theme-base-font-size * 0.875 !default;
+$font-size-subtitle1  : $theme-base-font-size !default;
+$font-size-body2      : $theme-base-font-size * 0.875 !default;
+$font-size-body1      : $theme-base-font-size !default;
+$font-size-caption    : $theme-base-font-size * 0.857 !default;
+$font-size-button     : $theme-base-font-size * 0.857 !default;
+$font-size-overline   : $theme-base-font-size * 0.857 !default;
+$font-size-link       : $theme-base-font-size !default;
+$font-size-list       : $theme-base-font-size !default;
+
+
+$line-height-H1       : normal !default;
+$line-height-H2       : normal !default;
+$line-height-H3       : normal !default;
+$line-height-H4       : normal !default;
+$line-height-H5       : normal !default;
+$line-height-H6       : normal !default;
+$line-height-subtitle2: 1.6 !default;
+$line-height-subtitle1: 1.6 !default;
+$line-height-body2    : 1.5 !default;
+$line-height-body1    : 1.5 !default;
+$line-height-caption  : 1.5 !default;
+$line-height-button   : 1.5 !default;
+$line-height-overline : 1.5 !default;
+$line-height-link     : 1.5 !default;
+$line-height-list     : 1.5 !default;
+
+
+$font-weight-bold     : 900 !default;
+$font-weight-semibold : 600 !default;
+$font-weight-normal   : 400 !default;
+$font-weight-light    : 300 !default;

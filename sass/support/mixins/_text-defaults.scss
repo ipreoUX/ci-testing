@@ -1,0 +1,28 @@
+////
+/// @group Config
+////
+
+/// if called this will output some sensible defaults.
+///
+@mixin reset() {
+  body {
+    font-family: typefaces();
+    margin: 0;
+  }
+
+  * {
+    box-sizing: border-box;
+    font-kerning: auto;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%; // stylelint-disable property-no-vendor-prefix
+  }
+
+  *:focus {
+    outline-style: auto;
+  }
+}

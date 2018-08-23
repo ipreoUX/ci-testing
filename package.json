@@ -1,0 +1,29 @@
+{
+  "name": "@ipreo/cupcake-batter",
+  "version": "0.1.1",
+  "description": "SASS foundation library.",
+  "publishConfig": {
+    "registry": "https://ipreo.jfrog.io/ipreo/api/npm/npm/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://code.ipreo.com/Ipreo/cupcake-batter"
+  },
+  "devDependencies": {
+    "@ipreo/cupcake-stylelint-config": "1.1.0",
+    "mocha": "^5.2.0",
+    "node-sass": "^4.9.3",
+    "sass-true": "^4.0.0",
+    "sassdoc": "^2.5.0",
+    "sassdoc-theme-flippant": "^0.1.0",
+    "stylelint": "^9.4.0",
+    "stylelint-scss": "^3.3.0"
+  },
+  "scripts": {
+    "test": "mocha",
+    "compile": "npm run stylelint && npm run sass",
+    "sass": "node-sass sass/batter.scss dist/css/cupcake.css",
+    "stylelint": "stylelint sass/**/*.scss  --fix",
+    "docs": "sassdoc sass/ -d docs/"
+  }
+}

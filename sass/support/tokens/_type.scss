@@ -1,0 +1,59 @@
+////
+/// @group Config
+////
+
+/// Default map settings for $font-size.
+/// Retrieve via function.
+$font-size: (
+  xl: $theme-base-font-size * 6,
+  lg: $theme-base-font-size * 3.75,
+  md: $theme-base-font-size * 3,
+  sm: $theme-base-font-size  * 2.125,
+  xs: $theme-base-font-size * 1.5,
+  xxs: $theme-base-font-size * 1.25,
+  subtitle-lg: $theme-base-font-size * 0.875,
+  subtitle-sm: $theme-base-font-size,
+  body-lg: $theme-base-font-size * 0.875,
+  body-sm: $theme-base-font-size
+) !default;
+
+/// Default map settings for $line-height.
+/// Retrieve via function.
+$line-height: (
+  H1: normal,
+  H2: normal,
+  H3: normal,
+  H4: normal,
+  H5: normal,
+  H6: normal,
+  subtitle2: 1.6,
+  subtitle1: 1.6,
+  body2: 1.5,
+  body1: 1.5,
+  caption: 1.5,
+  button: 1.5,
+  overline: 1.5,
+  link: 1.5,
+  list: 1.5
+) !default;
+
+/// Default map settings for $font-weight.
+/// Retrieve via function.
+$font-weight: () !default;
+$font-weight: map-merge(
+  (
+    bold: 900,
+    semibold: 600,
+    normal: 400,
+    light: 300
+  ),
+  $font-weight
+);
+
+
+/// Default map settings for $font.
+/// Retrieve via function.
+$font: (
+  primary: ($theme-font-family),
+  code: ($theme-font-family)
+) !default;

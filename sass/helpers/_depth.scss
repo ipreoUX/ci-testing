@@ -1,0 +1,6 @@
+@mixin shadow-export {
+  .c-depth {
+    @include modifiers($shadows, 'box-shadow');
+  }
+}
+

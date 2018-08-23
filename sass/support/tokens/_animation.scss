@@ -1,0 +1,24 @@
+////
+/// @group Config
+////
+
+/// Default map settings for $duration.
+/// Retrieve via function.
+$duration:(
+  fast: $duration-fast,
+  base: $duration-base,
+  slow: $duration-slow,
+  slower: $duration-slower,
+  slowest: $duration-slowest,
+) !default;
+
+/// Default map settings for $easing.
+/// Retrieve via function.
+$easing: (
+  base: $easing-base,
+  in: $easing-in,
+  out: $easing-out,
+  excite: $easing-excite,
+  overshot: $easing-overshoot,
+  anticipate: $easing-anticipate,
+) !default;

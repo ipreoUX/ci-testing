@@ -1,0 +1,21 @@
+////
+/// @group Config
+////
+
+/// Default map settings for $space.
+/// Retrieve via function.
+$space: () !default;
+$space: map-merge(
+  (
+    0  : $space-none,
+    xxs: $space-xxs,
+    xs : $space-xs,
+    sm : $space-sm,
+    md : $space-md,
+    lg : $space-lg,
+    xl : $space-xl,
+    xxl: $space-xxl,
+    xxxl: $space-xxl * 2
+  ),
+  $space
+);
