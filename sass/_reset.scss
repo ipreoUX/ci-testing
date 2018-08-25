@@ -110,9 +110,7 @@
   strong {
     @if variable-exists(text-strong) {
       font-weight: $text-strong;
-    }
-
-    @else {
+    } @else {
       font-weight: bold;
     }
   }
@@ -122,8 +120,8 @@
   }
 
   mark {
-    color: #fff;
-    background: #ff0;
+    color: #ffffff;
+    background: #ffff00;
   }
 
   small {
@@ -242,9 +240,7 @@
   optgroup {
     @if variable-exists(text-strong) {
       font-weight: $text-strong;
-    }
-
-    @else {
+    } @else {
       font-weight: bold;
     }
   }
