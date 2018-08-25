@@ -6,6 +6,9 @@
     "type": "git",
     "url": "https://code.ipreo.com/Ipreo/cupcake-batter"
   },
+  "engines": {
+    "node": ">=6"
+  },
   "devDependencies": {
     "mocha": "^5.2.0",
     "node-sass": "^4.9.3",
