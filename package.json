@@ -1,7 +1,7 @@
 {
   "name": "@ipreo/cupcake-batter",
   "version": "0.1.1",
-  "description": "SASS foundation library.",
+  "description": "Simple SASS foundation library.",
   "repository": {
     "type": "git",
     "url": "https://code.ipreo.com/Ipreo/cupcake-batter"
