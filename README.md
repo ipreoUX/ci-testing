@@ -1,4 +1,4 @@
-# Technical notes
+# Getting Started
 
 Better/real docs coming
 
