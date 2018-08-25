@@ -11,7 +11,9 @@
 
   @if type-of($fetched-value) == number {
     @return $fetched-value;
-  } @else {
+  }
+
+  @else {
     @error 'Spacing variant `#{$space}` not found.';
   }
 }
@@ -25,7 +27,9 @@
 
   @if type-of($fetched-font-weight) != null {
     @return $fetched-font-weight;
-  } @else {
+  }
+
+  @else {
     @error 'Font weight `#{$value}` not found.';
   }
 }
@@ -39,7 +43,9 @@
 
   @if type-of($fetched-line-height) != null {
     @return $fetched-line-height;
-  } @else {
+  }
+
+  @else {
     @error 'Line height `#{$value}` not found.';
   }
 }
@@ -53,7 +59,9 @@
 
   @if type-of($fetched-font-size) != null {
     @return $fetched-font-size;
-  } @else {
+  }
+
+  @else {
     @error 'Font size `#{$variant}` not found.';
   }
 }
@@ -68,7 +76,9 @@
 
   @if type-of($fetched-font) != null {
     @return $fetched-font;
-  } @else {
+  }
+
+  @else {
     @error 'Font family `#{$value}` not found.';
   }
 }
@@ -82,7 +92,9 @@
 
   @if type-of($fetched-value) == number {
     @return $fetched-value;
-  } @else {
+  }
+
+  @else {
     @error 'Duration variant `#{$variant}` not found.';
   }
 }
@@ -96,7 +108,9 @@
 
   @if type-of($fetched-value) == string {
     @return $fetched-value;
-  } @else {
+  }
+
+  @else {
     @error 'Easing variant `#{$variant}` not found. Available variants: #{$easing-data}';
   }
 }
@@ -110,7 +124,9 @@
 
   @if type-of($fetched-value) == list {
     @return $fetched-value;
-  } @else {
+  }
+
+  @else {
     @error 'Shadow variant `#{$depth}` not found.';
   }
 }
@@ -125,7 +141,9 @@
 
   @if $index {
     @return $index;
-  } @else {
+  }
+
+  @else {
     @error 'z-index `#{$element}` in `#{$context}` not found.';
   }
 }
@@ -168,7 +186,9 @@
 
   @if type-of($fetched-value) == color {
     @return $fetched-value;
-  } @else {
+  }
+
+  @else {
     @error 'Color `#{$hue} - #{$range}` not found.';
   }
 }
@@ -182,7 +202,9 @@
 @function color-contrast($background-color, $dark-color: color(neutral, 700), $light-color: color(neutral, 000)) {
   @if $background-color == null {
     @return null;
-  } @else {
+  }
+
+  @else {
     // Based on the algorithm recommended by W3: https://www.w3.org/TR/AERT/#color-contrast
     $yiq: (red($background-color) * 299 + green($background-color) * 587 + blue($background-color) * 114) / 1000;
 
@@ -213,7 +235,9 @@
 
   @if type-of($fetched-value) == number {
     @return $fetched-value;
-  } @else {
+  }
+
+  @else {
     @error 'Breakpoint `#{$value}` not found.';
   }
 }

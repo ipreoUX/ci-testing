@@ -74,7 +74,7 @@
   line-height: line-height(H4);
   font-weight: font-weight($weight);
   font-family: $theme-font-family;
-  letter-spacing: .25px;
+  letter-spacing: 0.25px;
   text-rendering: optimizeLegibility;
 }
 
@@ -113,7 +113,7 @@
   line-height: line-height(H6);
   font-weight: font-weight($weight);
   font-family: $theme-font-family;
-  letter-spacing: .15px;
+  letter-spacing: 0.15px;
   text-rendering: optimizeLegibility;
 }
 
@@ -122,7 +122,7 @@
   line-height: line-height(subtitle2);
   font-weight: font-weight($weight);
   font-family: $theme-font-family;
-  letter-spacing: .1px;
+  letter-spacing: 0.1px;
   text-rendering: optimizeLegibility;
 }
 
@@ -130,7 +130,7 @@
   font-size: font-size(subtitle1);
   line-height: line-height(subtitle1);
   font-weight: font-weight($weight);
-  letter-spacing: .15px;
+  letter-spacing: 0.15px;
   text-rendering: optimizeLegibility;
 }
 
@@ -138,7 +138,7 @@
   font-size: font-size(body2);
   line-height: line-height(body2);
   font-weight: font-weight($weight);
-  letter-spacing: .7px;
+  letter-spacing: 0.7px;
   font-family: $theme-font-family;
 }
 
@@ -147,7 +147,7 @@
   line-height: line-height(body1);
   font-weight: font-weight($weight);
   font-family: $theme-font-family;
-  letter-spacing: .7px;
+  letter-spacing: 0.7px;
   text-rendering: optimizeLegibility;
 }
 
@@ -156,7 +156,7 @@
   line-height: line-height(caption);
   font-weight: font-weight($weight);
   font-family: $theme-font-family;
-  letter-spacing: .4px;
+  letter-spacing: 0.4px;
   text-rendering: optimizeLegibility;
 }
 
@@ -166,7 +166,7 @@
   font-weight: font-weight($weight);
   font-family: $theme-font-family;
   text-rendering: optimizeLegibility;
-  letter-spacing: .4px;
+  letter-spacing: 0.4px;
   text-transform: uppercase;
 }
 

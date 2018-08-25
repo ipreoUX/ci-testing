@@ -40,11 +40,15 @@ $global-separator: '-';
     &#{#{$prefix}#{$key}} {
       @if type-of($value) == 'map' {
         @include modifiers($value, $attribute, $prefix, $separator);
-      } @else if type-of($attribute) == 'list' {
+      }
+
+      @else if type-of($attribute) == 'list' {
         @each $a in $attribute {
           #{$a}: $value;
         }
-      } @else {
+      }
+
+      @else {
         #{$attribute}: $value;
       }
     }
