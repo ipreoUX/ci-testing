@@ -2,9 +2,6 @@
   "name": "@ipreo/cupcake-batter",
   "version": "0.1.1",
   "description": "SASS foundation library.",
-  "publishConfig": {
-    "registry": "https://ipreo.jfrog.io/ipreo/api/npm/npm/"
-  },
   "repository": {
     "type": "git",
     "url": "https://code.ipreo.com/Ipreo/cupcake-batter"
