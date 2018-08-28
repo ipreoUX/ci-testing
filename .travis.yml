@@ -5,3 +5,10 @@ git:
 node_js:
   - "6"
   - "8"
+deploy:
+  provider: surge
+  project: ./dist/
+  domain: incredible-hope.surge.sh
+  skip_cleanup: true
+  on:
+    all_branches: true
