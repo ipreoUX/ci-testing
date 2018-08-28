@@ -7,7 +7,7 @@ node_js:
   - "8"
 deploy:
   provider: surge
-  project: ./dist/
+  project: ./docs
   domain: incredible-hope.surge.sh
   skip_cleanup: true
   on:
